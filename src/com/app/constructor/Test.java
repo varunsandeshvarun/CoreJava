@@ -12,7 +12,6 @@ public class Test {
 		this.name=name;
 		this.sal=sal;
 		this.place=place;
-		
 	}
 @Override
 	public String toString() {
@@ -20,5 +19,6 @@ public class Test {
 	}
 public static void main(String[] args) {
 	Test t= new Test(10,"madhu",100.0,"hyd");
+	System.out.println("hii ..Happy Diwali");
 }
 }
